@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - main
 
 env:
   AZURE_WEBAPP_NAME: hamdon # set this to your application's name
